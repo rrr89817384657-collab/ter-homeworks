@@ -44,7 +44,6 @@ resource "yandex_compute_instance" "platform" {
 ############################################################
 
 
-
 resource "yandex_vpc_subnet" "develop-2" {
   name           = var.vm_db_vpc_name
   zone           = var.vm_db_default_zone
@@ -78,5 +77,3 @@ resource "yandex_compute_instance" "netology-develop-platform-db" {
   metadata = local.metadata
 
 }
-
-

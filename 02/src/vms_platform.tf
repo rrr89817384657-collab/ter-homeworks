@@ -30,22 +30,9 @@ variable "vms_resources" {
   }))
 }
 
-
 variable "metadata" {
   type = map(any)
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 variable "vm_db_default_zone" {
   type        = string
